@@ -1,0 +1,14 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans&display=swap');
+
+h1 {
+	font-family: 'PT Mono', monospace;
+}
+
+h3 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.desc {
+	padding-left: 4rem;
+}
