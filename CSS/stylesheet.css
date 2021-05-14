@@ -3,6 +3,7 @@
 
 h1 {
 	font-family: 'PT Mono', monospace;
+	width: 95%;
 }
 
 h3 {
@@ -11,8 +12,20 @@ h3 {
 
 .desc {
 	padding-left: 5rem;
+	width: 95%;
 }
 
-image {
-	max-width: 80%;
+.iframe-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.28%;
+	height: 0;
+}
+
+.iframe-container iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
 }
